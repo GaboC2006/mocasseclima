@@ -12,8 +12,7 @@ Este proyecto es un microservicio que proporciona información meteorológica ac
 
 ## Configuración
 1. Clona el repositorio
-2. Crea un archivo `application-dev.properties` en `src/main/resources/`
-3. Añade tu clave API:
+2. Añade tu clave API:
    ```properties
    openweather.api.key=TU_CLAVE_API
 
