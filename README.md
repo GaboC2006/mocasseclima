@@ -10,7 +10,16 @@ Microservicio REST para información meteorológica en tiempo real utilizando la
 
 ## Configuración
 
-1. Crea un archivo `application-dev.properties` en `src/main/resources/`
-2. Añade tu clave API:
+1. Añade tu clave API:
    ```properties
    openweather.api.key=TU_CLAVE_API
+
+## Ejecución
+   mvn spring-boot:run
+
+## Endpoints
+- GET /api/clima/{ciudad}?pais={codigoPais} Ejemplo: /api/clima/Santiago?pais=CL
+
+## Documentación API
+   - Swagger UI: /swagger-ui.html
+   - OpenAPI docs: /api-docs
